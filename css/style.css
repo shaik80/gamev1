@@ -24,48 +24,61 @@ article{
 	}
 
 .pieces{
-    width: 333px;
-    height: 330px;
+	width: 340px;
+	height: 340px;
     position: absolute;
 	z-index: 100;
 	transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
-	perspective: 1000;
+    perspective: 1000;
+    background-size: 100%;
 	}
 
 #piece-1{
 	top: 0;
 	left: 0;
-	background: url(../img/split-img/building-1/1.jpg);
+    background: url(../img/split-img/got/1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 	}
 
 #piece-2{
 	top: 0;
 	left: 340px;
-	background: url(../img/split-img/building-1/2.jpg);
-	}
+	background: url(../img/split-img/got/2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
 
 #piece-3{
 	top: 0;
 	left: 680px;
-	background: url(../img/split-img/building-1/3.jpg);
+    background: url(../img/split-img/got/3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 	}
 
 #piece-4{
 	top: 340px;
 	left: 0;
-	background: url(../img/split-img/building-1/4.jpg);
+    background: url(../img/split-img/got/4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 	}
 
 #piece-5{
 	top: 340px;
 	left: 340px;
-	background: url(../img/split-img/building-1/5.jpg);
+    background: url(../img/split-img/got/5.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 	}
 
 #piece-6{
 	top: 340px;
 	left: 680px;
-	background: url(../img/split-img/building-1/6.jpg);
+    background: url(../img/split-img/got/6.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 	}
 
 p{
