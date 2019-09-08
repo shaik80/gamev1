@@ -1,19 +1,28 @@
 //  author Piers Rueb
 
-$(document).ready(function(){ 
+$(function(){ 
 
 	//  globals
 
-	var tileClicked = false;
-	var firstTileClicked; 
-	var secondTileClicked; 
-	var topPosFir = 0;
-	var leftPosFir = 0;
-	var topPosSec = 0;
-	var leftPosSec = 0;
-	var shuffle = Math.floor((Math.random() * 4) + 1);
-	var moves = 0;
-	var secs = 0;
+	let tileClicked = false;
+	let firstTileClicked; 
+	let secondTileClicked; 
+	let topPosFir = 0;
+	let leftPosFir = 0;
+	let topPosSec = 0;
+	let leftPosSec = 0;
+	let shuffle = Math.floor((Math.random() * 4) + 1);
+	let moves = 0;
+	let secs = 0;
+
+
+    setTimeout(function(){
+        shuffleTiles();
+        setInterval(function(){ 
+            secs++ 
+        }, 1000);
+    }, 1000);
+
 
 	//  shuffle the tiles
 
@@ -49,14 +58,6 @@ $(document).ready(function(){
 		}
 	}
 
-	$(window).load(function(){
-		setTimeout(function(){
-			shuffleTiles();
-			setInterval(function(){ 
-				secs++ 
-			}, 1000);
-		}, 1000);
-	});
 
 	//  play the game
 
