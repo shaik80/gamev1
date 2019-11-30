@@ -11,5 +11,5 @@ I develpoed this application to overcome stress when i am too much into coding
   
 ![Front page](/img/puzzle.jpg)
 
-|[Click here to play](https://shaik80.github.io/Block-Magic-Game/)||
-|-----------------------------------------------------------------|-----------------------------------------------------------------------|
+|[Click here to play](https://shaik80.github.io/Block-Magic-Game/)|
+|-----------------------------------------------------------------|
