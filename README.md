@@ -1,5 +1,5 @@
 # Puzzel Game
-                                               Shaik Mudassir
+                                               ###Shaik Mudassir
 Hi Geek, This application is made to play puzzle when you are in stress.
 I develpoed this application to overcome stress when i am too much into coding
 
